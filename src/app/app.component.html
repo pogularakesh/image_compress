@@ -1,0 +1,5 @@
+<div>
+  <button (click)="compressFile($event)">Upload and compress Image</button>
+  <img *ngIf="imgResultBeforeCompress" [src]="imgResultBeforeCompress" alt="">
+  <img *ngIf="imgResultAfterCompress" [src]="imgResultAfterCompress" alt="">
+</div>
